@@ -11,5 +11,14 @@
 }
 
 .btn-h{
-
+  width: 3rem; /* w-8 in Tailwind translates to 2rem */
+  height: 3rem; /* h-8 in Tailwind translates to 2rem */
+  background: linear-gradient(to left, #dc2626, #fb923c); /* Tailwind's bg-gradient-to-l, from-blue-600, to-purple-600 */
+  border-radius: 50%; /* rounded-full */
+  color: white; /* text-white */
+  font-size: 1.25rem; /* text-xl */
+}
+  
+.bg-f{
+  background: linear-gradient(270deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 137, 56, 0.10) 100%);
 }
