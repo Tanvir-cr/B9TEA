@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-button{
+.btn-g{
   width: 12rem; /* w-48 in Tailwind translates to 12rem */
   height: 4rem; /* h-16 in Tailwind translates to 4rem */
   background: linear-gradient(to left, #dc2626, #fb923c); /* Tailwind's bg-gradient-to-l, from-red-600, to-orange-400 */
@@ -9,11 +9,7 @@ button{
   font-size: 1.25rem; /* text-xl */
 
 }
-button:hover{
-    border: none; /* border-none */
-  cursor: pointer; /* cursor-pointer */
-  transition: all 0.3s ease; /* transition-all */
-  box-shadow: 0 0 15px 7px rgb(21, 30, 72); /* shadow-md */
-  background: linear-gradient(to left, #287085, #797964); /* Tailwind's bg-gradient-to-l, from-orange-400, to-red-600 *
-  border-radius: 10px; /* rounded-[10px] */
-   }
+
+.btn-h{
+
+}
