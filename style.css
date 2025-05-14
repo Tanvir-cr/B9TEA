@@ -10,6 +10,11 @@
 
 }
 
+.gre{
+  border-radius: 10px;
+  background: linear-gradient(90deg, #D9D9D9 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
 .btn-h{
   width: 3rem; /* w-8 in Tailwind translates to 2rem */
   height: 3rem; /* h-8 in Tailwind translates to 2rem */
@@ -22,3 +27,11 @@
 .bg-f{
   background: linear-gradient(270deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 137, 56, 0.10) 100%);
 }
+
+.btn-gs{
+  background: linear-gradient(to left, #dc2626, #fb923c); /* Tailwind's bg-gradient-to-l, from-red-600, to-orange-400 */
+  border-radius: 10px; /* rounded-[10px] */
+  color: white; /* text-white */
+  font-size: 1.25rem; /* text-xl */
+}
+
